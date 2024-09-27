@@ -19,7 +19,7 @@ st.markdown('<p class="big-font">600 & counting Users</p>', unsafe_allow_html=Tr
 # Load data from CSV
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/Users/hakeemwikireh/Downloads/user_data.csv")
+    df = pd.read_csv("user_data.csv")
     return df
 
 
