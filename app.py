@@ -104,7 +104,7 @@ elif page == "Users":
     # Load data from CSV
     @st.cache_data
     def load_data():
-        df = pd.read_csv("/Users/hakeemwikireh/Downloads/user_data.csv")
+        df = pd.read_csv("user_data.csv")
         return df
 
 
