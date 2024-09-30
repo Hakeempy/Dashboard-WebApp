@@ -104,7 +104,7 @@ elif page == "Users":
     # Load data from CSV
     @st.cache_data
     def load_data():
-        df = pd.read_csv('user_data.csv')
+        df = pd.read_csv("/Users/hakeemwikireh/Downloads/user_data.csv")
         return df
 
 
@@ -162,6 +162,7 @@ elif page == "Users":
 
     # Main content
     st.header("Data Insights")
+    green = ['#00A674']
 
     # Age distribution
     st.subheader("Age Distribution")
@@ -173,7 +174,7 @@ elif page == "Users":
     st.subheader("Education Distribution")
     education_counts = st.session_state.filtered_df['education'].value_counts()
     education_fig = px.pie(values=education_counts.values, names=education_counts.index, title='Education Distribution',
-                       color_discrete_sequence=px.colors.sequential.Greens)  # Shades of green for pie chart
+                       color_discrete_sequence=green)  # Shades of green for pie chart
     st.plotly_chart(education_fig, use_container_width=True)
 
 # Country distribution
@@ -187,7 +188,7 @@ elif page == "Users":
     st.subheader("Gender Distribution")
     gender_counts = st.session_state.filtered_df['gender'].value_counts()
     gender_fig = px.pie(values=gender_counts.values, names=gender_counts.index, title='Gender Distribution',
-                    color_discrete_sequence=px.colors.sequential.Greens)  # Shades of green for pie chart
+                    color_discrete_sequence=green)  # Shades of green for pie chart
     st.plotly_chart(gender_fig, use_container_width=True)
 
 # School distribution
