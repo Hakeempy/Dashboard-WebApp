@@ -1,0 +1,88 @@
+/* Main app background */
+.stApp {
+    background-color: #ccfcf5;
+}
+
+/* Header styling */
+.stHeader {
+    background-color: #ccfcf5;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Button styling */
+.stButton > button {
+    border-radius: 20px;
+    background-color: black;
+}
+
+/* Large font style */
+.big-font {
+    font-size: 24px;
+    color: #ff6347;
+    font-weight: bold;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #ccfcf5;
+}
+
+.st-emotion-cache-1aqalyy {
+    display: flex;
+    flex-direction: row;
+}
+
+/* div for sidebar */
+.st-emotion-cache-1gv3huu {
+background-color: #ccfcf5;
+}
+
+.st-emotion-cache-1l269bu e1f1d6gn3 {
+background-color: green;
+}
+
+/* # div for text data dashboard */
+.st-emotion-cache-115gedg {
+    align-content: center;
+}
+
+/* div for logo */
+.st-emotion-cache-1l269bu {
+    width: calc(16.6667% - 1rem);
+    flex: 1 1 calc(16.6667% - 1rem);
+    align-content: center;
+}
+
+/* div for top bar */
+.st-emotion-cache-ocqkz7 {}
+
+
+/*Space at the top di*/
+.st-emotion-cache-12fmjuu {
+    background: #ccfcf5; 
+}
+
+.st-emotion-cache-xh1c3g {
+    width: 54.8359px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.stButtons {
+    display: flex;
+    justify-content: space-between; /* Spread buttons across the div */
+    gap: 10px; /* Add space between buttons */
+}
+
+.stTitle {
+    font-size: 50px;
+}
+
+.st-emotion-cache-12h5x7g {
+    color: white;
+}
+
